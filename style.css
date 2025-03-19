@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+    background-color: #111;
+    color: white;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #f0f0f0;
+}
+
+body.dark header {
+    background: #222;
+}
+
+/* Button Styles */
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+/* Navigation Styles */
+nav a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    text-align: center;
+    padding: 50px;
+}
+
+h2 {
+    color: blue;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #f0f0f0;
+}
+
+body.dark footer {
+    background: #222;
+}
