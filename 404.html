@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+  var path = window.location.pathname;
+  var pages = {
+    "/about": "/about.html",
+    "/contact": "/contact.html",
+  };
+  if (pages[path]) {
+    window.location.replace(pages[path]);
+  } else {
+    document.body.innerHTML = "<h1>404 - Page Not Found</h1>";
+  }
+</script>
+  
+</body>
+</html>
